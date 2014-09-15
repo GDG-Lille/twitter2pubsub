@@ -15,4 +15,4 @@ run cd twitter2pubsub && mvn verify dependency:copy-dependencies
 
 workdir twitter2pubsub
 
-cmd ["java", "-jar", "target/twitter2pubsub.jar"]
+cmd ["java", "-jar", "target/twitter2pubsub.jar", "#JenniferLawrence"]
